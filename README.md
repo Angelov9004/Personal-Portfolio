@@ -55,11 +55,11 @@ send_email function is designed to send an email using SMTP.
 
 Environment Variables: Using os.getenv to fetch sensitive data like email credentials from environment variables is a good practice for security. Make sure you have these environment variables set in your deployment environment or in a .env file if you're using tools like python-dotenv.
 
-Email Body: The email body construction seems straightforward, incorporating the user's name, email, subject, and message. Ensure that you're properly formatting the email body for readability.
+Email Body: The email body incorporating the user's name, email, subject, and message. Ensure that you're properly formatting the email body for readability.
 
 SMTP Server: Ensure that you're using the correct SMTP server and port. The server address 'smtp.yourserver.com' and port 25 are placeholders. Make sure to replace them with the actual SMTP server details provided by your email service provider.
 
-Error Handling: It's essential to handle potential errors gracefully, especially during email sending. Consider implementing error handling to catch and log any exceptions that may occur during the email sending process.
+Error Handling: It's essential to handle potential errors gracefully, especially during email sending. Implemented error handling to catch and log any exceptions that may occur during the email sending process.
 
 ## Make sure to replace 'smtp.yourserver.com', 25, and the environment variables (SENDER_EMAIL, RECEIVER_EMAIL, PASSWORD) with your actual SMTP server details and email credentials. Additionally, consider logging errors or handling them according to your application's requirements.
 
