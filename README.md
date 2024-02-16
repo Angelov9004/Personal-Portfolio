@@ -2,6 +2,9 @@
 
 This is my personal portfolio website built using Flask, a Python web framework.
 
+![portfolio](https://github.com/Angelov9004/Personal-Portfolio-Flask-/assets/136641015/536ae872-0951-402d-8f4e-b64554f4d7c4)
+
+
 ## Description
 
 This website serves as a platform to showcase my projects, skills, and experience. It includes a homepage, portfolio section, about me section, and a contact form.
