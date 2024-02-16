@@ -51,7 +51,7 @@ Year Hour:Minute:Second". However, it can be further improved for clarity and co
 
 ## smtp.py
 
-Your send_email function is designed to send an email using SMTP. However, there are a few potential improvements and considerations:
+send_email function is designed to send an email using SMTP.
 
 Environment Variables: Using os.getenv to fetch sensitive data like email credentials from environment variables is a good practice for security. Make sure you have these environment variables set in your deployment environment or in a .env file if you're using tools like python-dotenv.
 
