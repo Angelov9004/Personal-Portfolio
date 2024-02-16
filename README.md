@@ -27,7 +27,7 @@ This website serves as a platform to showcase my projects, skills, and experienc
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/portfolio](https://github.com/Angelov9004/Personal-Portfolio.git
+   git clone https://github.com/Angelov9004/Personal-Portfolio.git
    
 ## Navigate to the project directory:
 
